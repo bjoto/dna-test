@@ -1,0 +1,9 @@
+This respository contains source code for "l2fwd" which is a test
+application for AF_PACKET V4.
+
+To build the program, set the shell environment variable
+DNA_KERNEL_HEADER_PATH to the path where your Linux kernel UAPI
+headers reside, and run "make".
+
+The dna-test source code uses the Open Source BSD license.
+
